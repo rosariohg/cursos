@@ -7,7 +7,8 @@
 </head>
 <body>
 	<!-- header -->
-	<header>
+	<!-- los id no se pueden repetir por página -->
+	<header id="header">
 		<!-- logotipo -->
 		<figure>
 			<!-- atrbuto src; ruta absoluta www.facebook.com/images; ruta relativa, parte desde donde se encuentra el documento-->
@@ -19,16 +20,19 @@
 			<ul>
 				<!-- elementos de la lista -->
 				<li>
-					<a href="">Home</a>
+					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="">Precios</a>
+					<a href="#guitarras">Guitarras</a>
+				</li>
+				<li>
+					<a href="precios.html">Precios</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 	<!-- portada -->
-	<section>
+	<section id="portada">
 		<!-- titulo -->
 		<h1>Guitarras Inviesibles</h1>
 		<!-- resumen -->
@@ -39,13 +43,13 @@
 		</button>
 	</section>
 	<!-- guitarras -->
-	<section>
+	<section id="guitarras">
 		<!-- titulo -->
 		<h2>Nuestras guitarras</h2>
 		<!-- englobar contenido especifico -->
 		<!-- guitarra1 -->
 		<article>
-			<img src="images/invie-acustica" alt="Guitarra invie Acústica" width="200" />
+			<img src="images/invie-acustica.png" alt="Guitarra invie Acústica" width="200" />
 			<h3>Invie Acústica</h3>
 			<ol>
 				<li>Estilo vintage</li>
@@ -55,7 +59,7 @@
 		</article>
 		<!-- guitarra2 -->
 		<article>
-			<img src="images/invie-classic" alt="Guitarra invie clásica" width="200" />
+			<img src="images/invie-classic.png" alt="Guitarra invie clásica" width="200" />
 			<h3>Invie Classic</h3>
 			<ol>
 				<li>Estilo vintage</li>
