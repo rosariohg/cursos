@@ -1,46 +1,29 @@
-/*tipo de selector {
-	propiedad: valor;
-}*/
-
-/*selector universal se le llama con  (*) */
-* {
-	border: 1px solid red;
-	margin: 10px;
+/*clases (.)*/
+.titulo {
+	font-size: 70px;
 }
 
-/*slector de etiqueta*/
-header {
-	background: blue;
-}
-
-/*selector de etiqueta a otra etiqueta*/
-section{
-	background: purple;
-}
-
-/*selector descendente - hace que el elemento funcione como una casacada*/
-article h3 {
-	color: green;
-}
-
-/*selector de clase, para lo cual debemos tener un atributo class*/
 .title-a {
-	background: yellow;
+	font-size: 24px;
 }
 
-.title-b{
-	background: salmon;
+.title-b {
+	font-size: 50px;
 }
 
-/*selector de id*/
-#header {
-	border: 3px solid black;
+.guitarras {
+	color: #1F313C;
 }
 
-#portada {
-	border: 3px solid orange;
+.guitarras h2{
+	font-size: 35px;
 }
 
-#guitarras{
-	border: 3px solid brown;
+.portada {
+	background-image: url("../images/background.png");
+	color: white;
+}
+
+.menu {
+	font-size: 24px;
 }
