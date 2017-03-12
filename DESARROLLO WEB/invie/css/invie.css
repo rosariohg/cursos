@@ -1,3 +1,46 @@
-body{
-	background: peru;
+/*tipo de selector {
+	propiedad: valor;
+}*/
+
+/*selector universal se le llama con  (*) */
+* {
+	border: 1px solid red;
+	margin: 10px;
+}
+
+/*slector de etiqueta*/
+header {
+	background: blue;
+}
+
+/*selector de etiqueta a otra etiqueta*/
+section{
+	background: purple;
+}
+
+/*selector descendente - hace que el elemento funcione como una casacada*/
+article h3 {
+	color: green;
+}
+
+/*selector de clase, para lo cual debemos tener un atributo class*/
+.title-a {
+	background: yellow;
+}
+
+.title-b{
+	background: salmon;
+}
+
+/*selector de id*/
+#header {
+	border: 3px solid black;
+}
+
+#portada {
+	border: 3px solid orange;
+}
+
+#guitarras{
+	border: 3px solid brown;
 }
