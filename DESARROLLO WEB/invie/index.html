@@ -95,13 +95,14 @@
 				</a>
 			</div>
 			<form class="formulario">
+			<div class="col1">
 				<label for="nombre">Nombre</label>
 				<input type="text" required placeholder="Nombre" id="nombre" name="nombre" />
 				<label for="email">Email</label>
 				<input type="email" required id="email" name="email" />
 				<div class="sexo">
 					<label for="mujer">
-						<input type="radio" id="mujer" name="sexo" value="mujer" />Mujer
+						<input type="radio" checked id="mujer" name="sexo" value="mujer" />Mujer
 					</label>
 					<label for="hombre">
 						<input type="radio" id="hombre" name="sexo" value="hombre" />Hombre
@@ -109,7 +110,7 @@
 				</div>
 				<div class="intereses">
 					<label for="cotizacion">
-						<input type="checkbox" id="cotizacion" name="cotizacion" value="cotizacion" /> Cotización
+						<input type="checkbox" checked id="cotizacion" name="cotizacion" value="cotizacion" /> Cotización
 					</label>
 					<label for="reclamos">
 						<input type="checkbox" id="reclamos" name="reclamos" value="reclamos" /> Cotización
@@ -121,6 +122,8 @@
 						<input type="checkbox" id="otros" name="otros" value="otros" /> Otros
 					</label>
 				</div>
+			</div>
+			<div class="col2">
 				<div>
 					<label for="comentarios">Comentarios</label>
 					<textarea name="comentarios" id="comentarios" cols="30" rows="7">
@@ -128,6 +131,7 @@
 					<input type="submit" value="Enviar"/>
 					
 				</div>
+			</div>
 			</form>
 		</div>
 	</footer>
