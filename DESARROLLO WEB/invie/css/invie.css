@@ -213,3 +213,8 @@ table, td, th {
 	border: 1px solid #273b47;
 	border-collapse: collapse; /*elimina un rec*/
 }
+
+/*pseudoelementos*/
+.menu li:after {
+	content: 'o';
+}
