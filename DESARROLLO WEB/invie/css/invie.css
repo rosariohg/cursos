@@ -125,3 +125,21 @@ button {
 .header{
 	position: relative;
 }
+
+.footer {
+	background: #273b47;
+}
+
+.contacto img {
+	display: block; /*cambiamos su tipo de disposicion, elementos q se encuentran seguidos de la imagene, se queden debajo*/
+
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a {
+	color: white;
+	text-decoration: none; /*no tengas ningun tipo de decoracion en el texto*/
+}
