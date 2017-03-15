@@ -57,12 +57,19 @@ body {
 	margin-bottom: 70px;	
 }
 
+/*Display en bloque y en linea, block e inline-block*/
 .menu {
 	font-size: 24px;
+	display: inline-block;
 }
 
-.header{
-	
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.logotipo {
+	display: inline-block;
 }
 
 .contenedor{
@@ -70,4 +77,32 @@ body {
 	/*para centrar*/
 	margin: auto;	
 }
-/*Display en bloque y en linea, block e inline-block*/
+
+.derecha {
+	float: right;
+}
+
+.izquierda {
+	float: left;
+}
+
+.guitarra {
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #1F313C;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+
+.contenedor-guitarra-a {
+	margin-left: 20px;
+	
+}
+
+.contenedor-guitarra-b {
+	margin-left: 370px;
+
+}
