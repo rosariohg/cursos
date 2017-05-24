@@ -19,7 +19,7 @@ saludarPerez("Pepito")
 
 function prefijoRe(nombre){
 	return function makePrefijo(prefijo){
-		console.log(`${nombre} ${prefijo}`)
+		console.log(`${nombre}${prefijo}`)
 	}
 }
 const prefijo = prefijoRe("re")
